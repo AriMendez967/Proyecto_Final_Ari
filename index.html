@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis proyectos web</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: #f5f5f5;
+            background: #10101c;
+            text-align: center;
+        }
+
+        h1 {
+            color: #40f5e5;
+            text-shadow: 0 0 12px #40f5e5;
+        }
+
+        .contenedor {
+            max-width: 900px;
+            margin: 35px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .tarjeta {
+            padding: 25px;
+            border: 1px solid #40f5e5;
+            border-radius: 15px;
+            background: #19192a;
+            box-shadow: 0 0 12px #40f5e533;
+        }
+
+        .tarjeta h2 {
+            color: #40f5e5;
+        }
+
+        .tarjeta a {
+            display: inline-block;
+            padding: 12px 20px;
+            margin-top: 10px;
+            color: #10101c;
+            background: #40f5e5;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .tarjeta a:hover {
+            background: #b9fff7;
+            box-shadow: 0 0 15px #40f5e5;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mis proyectos web</h1>
+    <p>Selecciona el sitio que deseas visitar.</p>
+
+    <main class="contenedor">
+        <section class="tarjeta">
+            <h2>Inicio</h2>
+            <p>Conoce mi página principal.</p>
+            <a href="inicio/index.html">Entrar</a>
+        </section>
+
+        <section class="tarjeta">
+            <h2>HUELLA</h2>
+            <p>Historias, apoyo y orientación.</p>
+            <a href="huella/index.html">Entrar</a>
+        </section>
+
+        <section class="tarjeta">
+            <h2>Viajero_360</h2>
+            <p>Explora destinos y cultura.</p>
+            <a href="viajero/index.html">Entrar</a>
+        </section>
+    </main>
+
+</body>
+</html>
